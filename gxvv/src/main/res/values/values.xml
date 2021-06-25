@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GwVideoView">
+        <attr format="dimension" name="video_view_height"/>
+        <attr format="color" name="video_background_color"/>
+        <attr format="boolean" name="remove_back_btn"/>
+    </declare-styleable>
+
+    <attr format="reference" name="entrySummaries"/>
+    <declare-styleable name="IjkListPreference">
+        <attr name="entrySummaries"/>
+    </declare-styleable>
+</resources>

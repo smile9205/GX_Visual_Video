@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/hud_view_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:visibility="invisible" />
+
+    <com.gs.gxvv.ijk.IjkVideoView
+        android:id="@+id/ijk_video_player"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/img_video_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:src="@mipmap/btn_close" />
+
+    <SeekBar
+        android:id="@+id/video_seekBar_two"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_alignParentBottom="true"
+        android:max="0"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:progressDrawable="@drawable/seek_bar_style"
+        android:thumb="@null" />
+    <View
+        android:id="@+id/view_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"/>
+
+    <ProgressBar
+        android:id="@+id/video_progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminateTint="@android:color/white"
+        android:visibility="gone" />
+
+</RelativeLayout>

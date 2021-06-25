@@ -1,0 +1,3 @@
+include ':gxvv'
+include ':app'
+rootProject.name = "GX_Visual_Video"
